@@ -1,0 +1,46 @@
+.banner{
+    width: 90vw;
+    z-index: 6;
+}
+.dp{
+    height: 15vw;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10vw;
+    left: 5vw;
+
+}
+.name{
+    position: relative;
+   font-size: 30px;
+}
+.profile{
+    position: relative;
+    top: 6vw;
+    z-index: -2;
+    color: white;
+    text-decoration:none;
+
+}
+.bio{
+    position: relative;
+    bottom: 12vw;
+    left: 100px;
+    width: 60vw;
+    margin: 0px;
+}
+
+.headline{
+    font-size: 1.2vw;
+    position: relative;
+    width: 60vw;
+   bottom: 30px;
+}
+.skills{
+    position: relative;
+    bottom: 35px;
+}
+.atag{
+    text-decoration: none;
+}

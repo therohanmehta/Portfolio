@@ -1,0 +1,20 @@
+.allCard{
+    /* border: 2px solid red; */
+    position: relative;
+    top: 12vh; 
+    text-align: center;
+    width: 30vw;
+    height: 80vh;
+    overflow-x: scroll;
+    /* left: 40vw; */
+    display: flex;
+    gap: 20vh;
+}
+.card{
+/* border: 2px solid yellow; */
+min-width: 50vh;
+}
+.soon{
+    display: relative;
+    float: right;
+}

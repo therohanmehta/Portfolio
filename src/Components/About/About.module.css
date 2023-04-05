@@ -1,0 +1,14 @@
+.introDiv{
+position: relative;
+    /* border: 2px solid rgb(255, 42, 42); */
+    top: 3vh;
+    font-size: 3vw;
+    width: 55vw;
+}
+
+.bio{
+    width: 50vw;
+}
+.aboutMe{
+    font-size: 7vw;
+}

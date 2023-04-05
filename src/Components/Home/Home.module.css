@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.name{
+    /* border: 2px solid white; */
+    display: inline;
+    font-size: 7vw;
+    margin: 0px;
+    position: relative;
+    /* top: 20px; */
+}
+.bio{
+    /* border: 2px solid pink; */
+    font-size: 5vw;
+    margin: 0px;
+    
+
+}
+.intro{
+    position:relative;
+    top: 30vh;
+    width: 50vw;
+}

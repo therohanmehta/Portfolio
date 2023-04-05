@@ -1,0 +1,20 @@
+.sayHello{
+    /* border: 2px solid red; */
+    font-size: 7vw;
+    /* position: relative; */
+    /* top: 10vh; */
+}
+.div{
+    /* border: 2px solid red; */
+    position: relative;
+    top: 3vh;
+    width: 62vw;
+    
+}
+.msg{
+    font-size: 3vw;
+}
+.mailMe{
+    font-size: 2vw; 
+    color: white;
+}
