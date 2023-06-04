@@ -4,10 +4,11 @@
     flex-direction: column;
     /* max-width: 40px; */
     /* position: relative; */
-    float: right;
+    /* float: right; */
     top: 28vh;
     position: fixed;
-    left: 94vw;
+    right: 4vw;
+    /* left: 94vw; */
     font-size: 20px;
     
 }
