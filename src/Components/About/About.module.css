@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-.wrapper{
+.wholepage{
     height: 100vh;
     width: 100vw;
 }
@@ -17,30 +17,83 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    /* color: white; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.percard h1,h3,h4{
+    color: rgba(255, 255, 255, 0.953);
+    /* background-color: black; */
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+.percard:hover{
+transform: scale(1.2);
+transition: transform 1s ;
 }
 .edu h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  
+  
+  .headingText{
+    text-align: center;
+    color: rgb(0, 0, 0);
+  padding: 25px;
+  font-size: 2rem;
 }
+
+
+
+
 .skills{
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
-.skills div{
-    border: 2px solid ;
+
+
+
+.skillImg {
+    max-width: 100vw;
+    height: 5rem;
+    padding: 0 15px;
+    object-fit: cover;
+    
+  }
+  
+  .skillImg:last-of-type {
+    padding-left: 0;
+  }
+  
+  .inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 5rem;
+  }
+  
+  .wrapper {
+    position: absolute;
     display: flex;
-    /* gap: 4vh; */
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 90vw;
-    /* height: 20vh; */
-    /* overflow:-moz-hidden-unscrollable; */
-}
-.perskill{
-    border: 2px solid   ;
-    padding: 15px;
-    margin: 2px;
-   /* margin-right: 10px; */
-   font-size: 30px;
-}
+  }
+  
+  section {
+    display: flex;
+    animation: swipe var(--speed) linear infinite forwards;
+  }
+  
+  @keyframes swipe {
+    0% {
+      /* transform: translate(0); */
+    }
+  
+    100% {
+      transform: translate(-100%);
+    }
+  }
+  

@@ -12,19 +12,19 @@ import {TbHexagonLetterR  } from "react-icons/tb";
 function NavBar() {
 
   function goToHome(){
-    
+    alert('1')
   }
   function goToAbout(){
-    
+    alert('2')
   }
   function goToContact(){
-    
+    alert('3')
   }
   function goToLinkedln(){
-    
+    alert('4')
   }
   function goToMiniProjects(){
-    
+    alert('5')
   }
 const icons=[< BiHomeAlt2 onClick={goToHome} />,
 <BsPersonCircle onClick={goToAbout}/>,

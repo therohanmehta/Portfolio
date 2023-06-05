@@ -1,76 +1,128 @@
-import React from 'react'
-import {Carousel} from '3d-react-carousal';
-import style from './About.module.css'
+import React from "react";
+import { Carousel } from "3d-react-carousal";
+import style from "./About.module.css";
 function About() {
-  // let slides = [
-  //   <img  src="https://picsum.photos/800/300/?random" alt="1" />,
-  // <img  src="https://picsum.photos/800/301/?random" alt="2" />  ,
-  // <img  src="https://picsum.photos/800/302/?random" alt="3" />  , 
-  // <img  src="https://picsum.photos/800/303/?random" alt="4" />  ,
-  // <img src="https://picsum.photos/800/304/?random" alt="5" />  ];
+  const images = [
+    "https://repository-images.githubusercontent.com/37153337/9d0a6780-394a-11eb-9fd1-6296a684b124",
+    "https://leocrecente.files.wordpress.com/2015/04/html5-logo1.jpg?w=1200",
+    "https://pixelmechanics.com.sg/wp-content/uploads/2019/04/css.jpg",
+    "https://dev-updates-uploads.s3.ap-south-1.amazonaws.com/1665673562977-Best%20way%20to%20learn%20javascript.jpg",
+    "https://cdn.mojotech.com/2017/08/1color-lightbg@2x-1.png",
+    "https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2023/01/GitHub.jpeg",
+    "https://plainenglish.io/assets/post-content/how-to-use-npm-and-import-export-modules-in-javascript.jpeg",
+    "https://redux.js.org/img/redux-logo-landscape.png",
+    "https://lembergsolutions.com/sites/default/files/styles/original_size_pdf_compressed_/public/media/images/Material%20UI%20Logo.png?itok=FgZS2KJD",
+  ];
+
   let slides = [
-  
-<div  className={style.percard}>
-<h1>Web Development</h1>
-  <h3>FunctionUp</h3>
-  <h3>Frontend Developer Trainee  </h3>
-  <h4>Feb 2023 - Present</h4>
-</div>
-,
-<div className={style.percard}>
-<h1>NoBroker.com</h1>
-  <h3>Bengaluru, Karnataka</h3>
-  <h3>Loan and Legal Advisory</h3>
-  <h4>Sep 2022 - Dec 2022</h4>
-</div>,
+    <div
+      style={{
+        backgroundImage: `url("https://i.pinimg.com/originals/00/d8/a9/00d8a9d2f0c7389b9c8217c04eb9214c.jpg")`,
+      }}
+      className={style.percard}
+    >
+      <h1>Web Development</h1>
+      <h3>FunctionUp</h3>
+      <h3>Frontend Developer Trainee </h3>
+      <h4>Feb 2023 - Present</h4>
+    </div>,
+    <div
+      style={{
+        backgroundImage: `url("https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80")`,
+      }}
+      className={style.percard}
+    >
+      <h1>NoBroker.com</h1>
+      <h3>Bengaluru, Karnataka</h3>
+      <h3>Loan and Legal Advisory</h3>
+      <h4>Sep 2022 - Dec 2022</h4>
+    </div>,
 
-<div className={style.percard}>
-<h1>Astra Communication</h1>
-  <h3>Dhanbad , Jharkhand</h3>
-  <h3>Sales and Managing Assistant </h3>
-  <h4>Jan 2022 - Aug 2022</h4>
-</div>
-,
-<div className={style.percard}>
-<h1>Graduation</h1>
-  <h3>Jharkhand University of Technology</h3>
-  <h3>Civil Engineering 2018-2021</h3>
-  <h4>Grade 80.19%</h4>
-</div>,
+    <div
+      style={{
+        backgroundImage: `url("https://c4.wallpaperflare.com/wallpaper/175/524/956/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-preview.jpg")`,
+      }}
+      className={style.percard}
+    >
+      <h1>Astra Communication</h1>
+      <h3>Dhanbad , Jharkhand</h3>
+      <h3>Sales and Managing Assistant </h3>
+      <h4>Jan 2022 - Aug 2022</h4>
+    </div>,
+    <div
+      style={{
+        backgroundImage: `url("https://c4.wallpaperflare.com/wallpaper/742/526/430/mountains-fog-horizon-outlines-wallpaper-preview.jpg")`,
+      }}
+      className={style.percard}
+    >
+      <h1>Graduation</h1>
+      <h3>Jharkhand University of Technology</h3>
+      <h3>Civil Engineering 2018-2021</h3>
+      <h4>Grade 80.19%</h4>
+    </div>,
 
-<div className={style.percard}>
-<h1>Intermediate(XII)</h1>
-  <h3>Indian School of Learning Jharia</h3>
-  <h3>Science 2016-2018</h3>
-  <h4>Grade 84%</h4>
-</div>,
-<div className={style.percard}>
-<h1>Matriculation(X)</h1>
-  <h3>Indian School of Learning Jharia</h3>
-  <h3>Science 2016</h3>
-  <h4>Grade 8.2 / 10 CGPA</h4>
-</div>
-];
+    <div
+      style={{
+        backgroundImage: `url("https://images.unsplash.com/photo-1527607976958-7cbb4a6d0131?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fHw%3D&w=1000&q=80")`,
+      }}
+      className={style.percard}
+    >
+      <h1>Intermediate(XII)</h1>
+      <h3>Indian School of Learning Jharia</h3>
+      <h3>Science 2016-2018</h3>
+      <h4>Grade 84%</h4>
+    </div>,
+    <div
+      style={{
+        backgroundImage: `url("https://w0.peakpx.com/wallpaper/891/399/HD-wallpaper-dark-saturn-sky-moon-space.jpg")`,
+      }}
+      className={style.percard}
+    >
+      <h1>Matriculation(X)</h1>
+      <h3>Indian School of Learning Jharia</h3>
+      <h3>Science 2016</h3>
+      <h4>Grade 8.2 / 10 CGPA</h4>
+    </div>,
+  ];
 
-const skills=['HTML 5' ,'CSS3 ','JAVASCRIPT','REACT JS','GIT','GITHUB','NPM','REDUX','RECOIL']
   return (
-<>
-<div className={style.wrapper}>
-<div className={style.skills}>
-<h1>Skills</h1>
-<div>
-
-{skills.map((ele,ind)=><p className={style.perskill}>{ele}</p>)}
-</div>
-
-</div>
-<div className={style.edu}>
-<h1>Education and Experience</h1>
-<Carousel slides={slides} autoplay={true} interval={3000}/>
-</div>
-</div>
-</>
-  )
+    <>
+      <div className={style.wholepage}>
+        <div className={style.skills}>
+          <h1 className={style.headingText}>Programming Skills</h1>
+          <div className={style.inner}>
+            <div className={style.wrapper}>
+              <section style={{ "--speed": `${15000}ms` }}>
+                {images.map((image, index) => (
+                  <div className="image" key={index}>
+                    <img className={style.skillImg} src={image} alt={index} />
+                  </div>
+                ))}
+              </section>
+              <section style={{ "--speed": `${15000}ms` }}>
+                {images.map((image, index) => (
+                  <div className="image" key={index}>
+                    <img className={style.skillImg} src={image} alt={index} />
+                  </div>
+                ))}
+              </section>
+              <section style={{ "--speed": `${15000}ms` }}>
+                {images.map((image, index) => (
+                  <div className="image" key={index}>
+                    <img className={style.skillImg} src={image} alt={index} />
+                  </div>
+                ))}
+              </section>
+            </div>
+          </div>
+        </div>
+        <div className={style}>
+          <h1 className={style.headingText}>Education and Experience</h1>
+          <Carousel slides={slides} autoplay={true} interval={3000} />
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default About
+export default About;
