@@ -28,7 +28,7 @@ function NavBar() {
   }
 const icons=[< BiHomeAlt2 onClick={goToHome} />,
 <BsPersonCircle onClick={goToAbout}/>,
-<TbMail onClick={goToContact}/>, <AiOutlineLinkedin className={navbar.linkdln} onClick={goToLinkedln}/>,
+<TbMail onClick={goToContact}/>,
  <AiOutlineFolderOpen onClick={goToMiniProjects}/>]
   return (
     <>

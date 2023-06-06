@@ -3,15 +3,17 @@ import { Carousel } from "3d-react-carousal";
 import style from "./About.module.css";
 function About() {
   const images = [
-    "https://repository-images.githubusercontent.com/37153337/9d0a6780-394a-11eb-9fd1-6296a684b124",
-    "https://leocrecente.files.wordpress.com/2015/04/html5-logo1.jpg?w=1200",
-    "https://pixelmechanics.com.sg/wp-content/uploads/2019/04/css.jpg",
-    "https://dev-updates-uploads.s3.ap-south-1.amazonaws.com/1665673562977-Best%20way%20to%20learn%20javascript.jpg",
-    "https://cdn.mojotech.com/2017/08/1color-lightbg@2x-1.png",
-    "https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2023/01/GitHub.jpeg",
-    "https://plainenglish.io/assets/post-content/how-to-use-npm-and-import-export-modules-in-javascript.jpeg",
-    "https://redux.js.org/img/redux-logo-landscape.png",
-    "https://lembergsolutions.com/sites/default/files/styles/original_size_pdf_compressed_/public/media/images/Material%20UI%20Logo.png?itok=FgZS2KJD",
+    'https://quintagroup.com/cms/js/js-image/react.js-logo.png/@@images/a9bf22bd-373a-4fae-a900-c22fd12c87c7.png',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png',
+'https://www.freepnglogos.com/uploads/javascript-png/javascript-shield-logo-icon-2.png',
+'https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png',
+'https://www.pngmart.com/files/22/GitHub-PNG-File.png',
+'https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png',
+'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/2560px-Npm-logo.svg.png',
+
+   
+   
   ];
 
   let slides = [

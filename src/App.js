@@ -14,7 +14,7 @@ function App() {
       <NavBar/>
     {/* <Home/> */}
     <About/>
-
+<ConnectMe/>
     
     </div>
   );

@@ -23,12 +23,13 @@
     background-size: cover;
     
 }
-.percard h1,h3,h4{
-    color: rgba(255, 255, 255, 0.953);
-    /* background-color: black; */
-    
-    font-family: 'Courier New', Courier, monospace;
+.percard > h1,h3,h4{
+    color: rgba(255, 255, 255, 0.953); 
+    font-family:cursive;
+    font-size: xx-large;
+    font-weight: 100;
 }
+
 .percard:hover{
 transform: scale(1.2);
 transition: transform 1s ;
@@ -97,3 +98,12 @@ transition: transform 1s ;
     }
   }
   
+
+  @media screen and (max-width:500px) {
+    .percard > h1,h3,h4{
+      color: rgba(255, 255, 255, 0.953); 
+      font-family:cursive;
+      font-size: large;
+      font-weight: 100;
+  }
+  }
