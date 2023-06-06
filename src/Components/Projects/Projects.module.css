@@ -1,0 +1,38 @@
+.wholepage{
+    height: 100%;
+    width: 100vw;
+    /* text-align: center; */
+}
+.wholepage h1{
+    text-align: center;
+}
+.project{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 50px 0px;
+}
+
+.project img{
+    /* height: 80vh ; */
+    width: 60vw;
+}
+li{
+    margin: 20px;
+}
+
+
+
+@media screen and (max-width:500px) {
+    .project{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    padding: 20px 0px;
+
+    }
+    .project img{
+        /* height: 100% ; */
+            width: 100%;
+    }
+}

@@ -10,7 +10,7 @@ function ConnectMe() {
   return (
     <>
     <div className={style.wholepage}>
-      <h1>Dont be a stranger ! Connect with me </h1>
+      <h1 style={{paddingTop:'5px'}}>Dont be a stranger ! Connect with me </h1>
      
    
       <h2></h2>
@@ -20,36 +20,48 @@ function ConnectMe() {
        <img src="" alt="" />
 
       </div>
-      <div className={style.content}>
+       <div className={style.content}>
+     <a href="https://github.com/therohanmehta" target="_blank" rel="noopener noreferrer">
       <div className={style.github}>
       <h1><BsGithub/></h1>
       <p>Check my projects on Github</p>
       <p>@therohanmehta</p>
       </div>
+     </a>
 
-      
-      <div className={style.insta} >
+     <a href="http://instagram.com/the.rohanmehta" target="_blank" rel="noopener noreferrer">
+       
+     <div className={style.insta} >
       <h1><BsInstagram/></h1>
       <p>Follow me on Insta</p>
-      <p>@therohanmehta</p>
+      <p>@the.rohanmehta</p>
       </div>
+     </a>
       
-      <div className={style.twitter} >
+   
+     <a href="  https://twitter.com/the_rohanmehta" target="_blank" rel="noopener noreferrer">
+     <div className={style.twitter} >
       <h1><BsTwitter/></h1>
       <p>Follow me on twitter</p>
       <p>@therohanmehta</p>
       </div>
+     </a>
+     <a href="https://www.linkedin.com/in/therohanmehta/" target="_blank" rel="noopener noreferrer">
+
       <div className={style.linkedin} >
       <h1><BsLinkedin/></h1>
       <p>Connect with me on Linkedin</p>
       <p>@therohanmehta</p>
       </div>
+     </a>
+      <a href="http://google.com" target="_blank" rel="noopener noreferrer">
       <div className={style.facebook} >
       <h1><BsFacebook/></h1>
       <p>Add me on Facebook</p>
+        <p >@therohanmehta</p>
       
-      <a href="http://google.com" target="_blank" rel="noopener noreferrer">@therohanmehta<p ></p></a>
       </div>
+        </a>
     </div>
 </div>
     </>

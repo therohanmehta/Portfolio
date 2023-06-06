@@ -5,7 +5,7 @@ import About from "./Components/About/About";
 import ConnectMe from "./Components/ConnectMe/ConnectMe";
 import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
-import MiniProjects from "./Components/MiniProjects/MiniProjects";
+import Projects from "./Components/Projects/Projects";
 import NavBar from './Components/Navbar/NavBar'
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
     {/* <Home/> */}
     <About/>
 <ConnectMe/>
-    
+    <Projects/>
     </div>
   );
 }
