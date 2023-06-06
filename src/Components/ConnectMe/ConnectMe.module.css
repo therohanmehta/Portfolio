@@ -1,44 +1,41 @@
-.wholepage{
-    height: 100vh;
-    widht:100vw;
-    /* background-color: red; */
-    /* display: flex; */
-
-    
+.wholepage {
+  height: 100vh;
+  widht: 100vw;
+  /* background-color: red; */
+  /* display: flex; */
 }
-.wholepage> h1{
-    text-align: center;
-    /* font-size: xx-large; */
-    font-size: 50px;
+.wholepage > h1 {
+  text-align: center;
+  /* font-size: xx-large; */
+  font-size: 50px;
 }
 
-a{
+a {
   text-decoration: none;
   color: rgb(38, 34, 34);
 }
 
-.content{
+.content {
   display: flex;
   gap: 20px;
-width: 90%;
-height: 40%;
-justify-content: space-around;
-align-items: center;
-font-size: larger;
- 
+  width: 90%;
+  height: 40%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: larger;
 }
-.content div{
+.content div {
   text-align: center;
   /* width: 50vw;
   height: 20vh; */
   /* background-color: red; */
 }
 
-.content div:hover{
- transform: scale(1.5);
- transition: transform 1s ;
+.content div:hover {
+  transform: scale(1.5);
+  transition: transform 1s;
 }
-.pdf{
+.pdf {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,28 +45,25 @@ font-size: larger;
   height: 25%;
   width: 90%;
   text-align: center;
-  padding:20px ;
+  padding: 20px;
 }
-.pdf span{
+.pdf span {
   font-size: 1.6rem;
 }
 
-
-
-@media screen and (max-width:500px ){
-  .wholepage{
+@media screen and (max-width: 500px) {
+  .wholepage {
     height: 90%;
   }
-  .content{
-   
-  display: flex;
- flex-direction: column;
- width: 100%;
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
-  .wholepage> h1{
+  .wholepage > h1 {
     text-align: center;
     /* font-size: xx-large; */
     font-size: 32px;
     /* margin-top: 20vh; */
-}
+  }
 }

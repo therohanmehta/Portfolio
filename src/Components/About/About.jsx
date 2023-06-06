@@ -3,17 +3,14 @@ import { Carousel } from "3d-react-carousal";
 import style from "./About.module.css";
 function About() {
   const images = [
-    'https://quintagroup.com/cms/js/js-image/react.js-logo.png/@@images/a9bf22bd-373a-4fae-a900-c22fd12c87c7.png',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png',
-'https://www.freepnglogos.com/uploads/javascript-png/javascript-shield-logo-icon-2.png',
-'https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png',
-'https://www.pngmart.com/files/22/GitHub-PNG-File.png',
-'https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png',
-'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/2560px-Npm-logo.svg.png',
-
-   
-   
+    "https://quintagroup.com/cms/js/js-image/react.js-logo.png/@@images/a9bf22bd-373a-4fae-a900-c22fd12c87c7.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+    "https://www.freepnglogos.com/uploads/javascript-png/javascript-shield-logo-icon-2.png",
+    "https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png",
+    "https://www.pngmart.com/files/22/GitHub-PNG-File.png",
+    "https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/2560px-Npm-logo.svg.png",
   ];
 
   let slides = [

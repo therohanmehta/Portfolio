@@ -1,35 +1,30 @@
-.allIcons{
-    /* border: 2px solid yellow; */
-    display: flex;
-    flex-direction: column;
-    /* max-width: 40px; */
-    /* position: relative; */
-    /* float: right; */
-    top: 28vh;
-    position: fixed;
-    right: 4vw;
-    /* left: 94vw; */
-    font-size: 20px;
-    z-index: 100;
-    scroll-behavior: smooth;
-    
+.allIcons {
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  /* max-width: 40px; */
+  /* position: relative; */
+  /* float: right; */
+  top: 28vh;
+  position: fixed;
+  right: 4vw;
+  /* left: 94vw; */
+  font-size: 20px;
+  z-index: 100;
+  scroll-behavior: smooth;
 }
-.allIcons::after{
-    background-color: red;
-}
-
-
-.icon{
-/* border: 2px solid yellow; */
-display: inline;
-margin: 15px 0px;
-
+.allIcons::after {
+  background-color: red;
 }
 
-.topIcon{
-    position: fixed;
-    top: 0px;
-    font-size: 40px;
+.icon {
+  /* border: 2px solid yellow; */
+  display: inline;
+  margin: 15px 0px;
 }
 
-
+.topIcon {
+  position: fixed;
+  top: 0px;
+  font-size: 40px;
+}
