@@ -66,4 +66,10 @@ font-size: larger;
  flex-direction: column;
  width: 100%;
   }
+  .wholepage> h1{
+    text-align: center;
+    /* font-size: xx-large; */
+    font-size: 32px;
+    /* margin-top: 20vh; */
+}
 }

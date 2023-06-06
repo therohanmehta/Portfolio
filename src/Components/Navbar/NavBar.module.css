@@ -11,6 +11,7 @@
     /* left: 94vw; */
     font-size: 20px;
     z-index: 100;
+    scroll-behavior: smooth;
     
 }
 .allIcons::after{
@@ -28,9 +29,7 @@ margin: 15px 0px;
 .topIcon{
     position: fixed;
     top: 0px;
-    font-size: 70px;
+    font-size: 40px;
 }
-.linkdln{
-    background-color: rgb(58, 58, 177);
-}
+
 

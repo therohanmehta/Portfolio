@@ -1,7 +1,9 @@
 body{
  margin: 0px;  
  padding: 0px;
+ scroll-behavior: smooth;
 }
 .mainscreen{
     background-color: rgba(196, 196, 196, 0.542);
+    scroll-behavior: smooth;
 }

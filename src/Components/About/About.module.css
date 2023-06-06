@@ -43,9 +43,9 @@ transition: transform 1s ;
   
   .headingText{
     text-align: center;
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
   padding: 25px;
-  font-size: 2rem;
+  font-size: 50px;
 }
 
 
@@ -106,4 +106,12 @@ transition: transform 1s ;
       font-size: large;
       font-weight: 100;
   }
+
+  .headingText{
+    text-align: center;
+    /* color: rgb(0, 0, 0); */
+  padding: 25px;
+  font-size: 32px;
+}
+
   }

@@ -9,8 +9,9 @@ import { BsGithub } from 'react-icons/bs';
 function ConnectMe() {
   return (
     <>
+    
     <div className={style.wholepage}>
-      <h1 style={{paddingTop:'5px'}}>Dont be a stranger ! Connect with me </h1>
+      <h1 style={{paddingTop:'15px'}}>Dont be a stranger ! Connect with me </h1>
      
    
       <h2></h2>
