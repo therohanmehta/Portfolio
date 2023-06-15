@@ -7,11 +7,12 @@
   /* float: right; */
   top: 28vh;
   position: fixed;
-  right: 4vw;
+  right: 2vw;
+ 
   /* left: 94vw; */
-  font-size: 20px;
+  font-size: 22px;
   z-index: 100;
-  scroll-behavior: smooth;
+ 
 }
 .allIcons::after {
   /* background-color: red; */
@@ -24,19 +25,22 @@
   margin: 15px 0px;
 }
  
-.allIcons a{
-  color: rgb(28, 88, 13);
+.allIcons a:hover{
+  color: rgb(0, 0, 0);
+ 
+
 }
 
-.topIcon {
-  position: fixed;
-  top: 0px;
-  font-size: 40px;
+.allIcons a{
+  color: rgb(73, 58, 63);
 }
 @media (max-width:500px) {
-  
+  .allIcons{
+    right: 4vw;
+  }
   .allIcons a{
     color: rgb(73, 58, 63);
   }
+
   
 }

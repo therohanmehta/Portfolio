@@ -43,7 +43,7 @@ function Projects() {
                   </h1>
                 </a>
               </button>
-
+               <li> <b>React JS , Material UI , React-Beautiful-Dnd , Recoil</b> </li> 
               <li>
                 This project is a Web-App that provides a visual representation
                 of tasks and workflows
@@ -98,7 +98,7 @@ function Projects() {
                   </h1>
                 </a>
               </button>
-
+              <li> <b>React JS , Material UI , Exec-command , JS2PDF , HTML2CANVAS</b> </li> 
               <li>
                 {" "}
                 This is a Web-App created to provide user a Text area for
@@ -113,6 +113,54 @@ function Projects() {
                 {" "}
                 We can also convert the sheet into a compressed PDF for easy
                 sharing
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className={style.project}>
+          <a
+            href="https://twitter-sigma-five.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="twitter.png" alt="twitter sample" />
+          </a>
+          <div className={style.projectDesc}>
+            <ul>
+              <button>
+                {" "}
+                <a
+                  href="https://github.com/therohanmehta/Twitter"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h1>
+                    <BsGithub /> Github
+                  </h1>
+                </a>
+              </button>
+              <button>
+                {" "}
+                <a
+                  href="https://twitter-sigma-five.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h1>
+                    <BsDisplay /> Website
+                  </h1>
+                </a>
+              </button>
+              <li> <b>React JS , Material UI , React-router-dom , Recoil ,Axios</b> </li> 
+              <li>
+              This project is a clone of twitter where user can register and login
+              </li>
+              <li>
+              Also we can able to add tweet whatever we want
+              </li>
+              <li>
+                {" "}
+                User can access the website form any device Smartphone, Tablets, PC
               </li>
             </ul>
           </div>
@@ -148,10 +196,10 @@ function Projects() {
                 >
                   <h1>
                     <BsDisplay /> Website
-                  </h1>
+                  </h1> 
                 </a>
               </button>
-
+              <li> <b>React JS , Material UI , React-router-dom , Recoil </b> </li> 
               <li>
                 This is a promotional static website for representing our gym
                 across the people
@@ -168,6 +216,8 @@ function Projects() {
             </ul>
           </div>
         </div>
+
+   
       </div>
     </>
   );

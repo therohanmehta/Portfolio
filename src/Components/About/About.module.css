@@ -17,22 +17,20 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* color: white; */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+background-color:#dfdfdf;
+
 }
 .percard > h1,
 h3,
 h4 {
-  color: rgba(255, 255, 255, 0.953);
+  color: rgba(0, 0, 0, 0.953);
   font-family: cursive;
   font-size: xx-large;
   font-weight: 100;
 }
 
 .percard:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
   transition: transform 1s;
 }
 .edu h1 {
@@ -79,12 +77,13 @@ h4 {
 
 section {
   display: flex;
+
   animation: swipe var(--speed) linear infinite forwards;
 }
 
 @keyframes swipe {
   0% {
-    /* transform: translate(0); */
+    transform: translate(0);
   }
 
   100% {
@@ -96,7 +95,7 @@ section {
   .percard > h1,
   h3,
   h4 {
-    color: rgba(255, 255, 255, 0.953);
+  
     font-family: cursive;
     font-size: large;
     font-weight: 100;

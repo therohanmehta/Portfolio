@@ -1,20 +1,24 @@
 .wrapper {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  width: 80vw;
+  height: 95vh;
+  width: 100vw;
   display: flex;
   /* background-image: url(https://images4.alphacoders.com/130/1307940.png); */
-  /* background-repeat: no-repeat;
-  background-size: cover; */
+  background-repeat: no-repeat;
+  background-size: contain;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   /* text-align: center; */
-  /* justify-content: center; */
-  font-size: 6.5vw;
+  justify-content: center;
+  /* font-size: 6.5vw; */
+  font-size: 6rem;
 }
 
-
+.fadeIn{
+  /* font-size: 18vw; */
+  font-size: 5rem;
+}
 
 
 
@@ -41,23 +45,17 @@
     height: 100vh;
     width: 100vw;
     display: flex;
-    /* background-image: url(https://images4.alphacoders.com/130/1307940.png); */
-    /* background-repeat: no-repeat;
-    background-size: cover; */
+
     flex-direction: column;
-    /* align-items: center; */
-    text-align: center;
-    justify-content: center;
+
     font-size: 15vw;
+
   }
   .fadeIn{
-    font-size: 20vw;
+    /* font-size: 18vw; */
+    font-size: 3.5rem;
   }
   
-.leftsection{
-  height: 50%;
-  width: 100%;
-  border: 2px solid red;
-}
+
 
 }

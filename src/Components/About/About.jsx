@@ -15,9 +15,7 @@ function About() {
 
   let slides = [
     <div
-      style={{
-        backgroundImage: `url("https://i.pinimg.com/originals/00/d8/a9/00d8a9d2f0c7389b9c8217c04eb9214c.jpg")`,
-      }}
+     
       className={style.percard}
     >
       <h1>Web Development</h1>
@@ -26,9 +24,7 @@ function About() {
       <h4>Feb 2023 - Present</h4>
     </div>,
     <div
-      style={{
-        backgroundImage: `url("https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80")`,
-      }}
+    
       className={style.percard}
     >
       <h1>NoBroker.com</h1>
@@ -38,9 +34,7 @@ function About() {
     </div>,
 
     <div
-      style={{
-        backgroundImage: `url("https://c4.wallpaperflare.com/wallpaper/175/524/956/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-preview.jpg")`,
-      }}
+    
       className={style.percard}
     >
       <h1>Astra Communication</h1>
@@ -49,9 +43,7 @@ function About() {
       <h4>Jan 2022 - Aug 2022</h4>
     </div>,
     <div
-      style={{
-        backgroundImage: `url("https://c4.wallpaperflare.com/wallpaper/742/526/430/mountains-fog-horizon-outlines-wallpaper-preview.jpg")`,
-      }}
+    
       className={style.percard}
     >
       <h1>Graduation</h1>
@@ -61,9 +53,7 @@ function About() {
     </div>,
 
     <div
-      style={{
-        backgroundImage: `url("https://images.unsplash.com/photo-1527607976958-7cbb4a6d0131?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fHw%3D&w=1000&q=80")`,
-      }}
+    
       className={style.percard}
     >
       <h1>Intermediate(XII)</h1>
@@ -72,9 +62,7 @@ function About() {
       <h4>Grade 84%</h4>
     </div>,
     <div
-      style={{
-        backgroundImage: `url("https://w0.peakpx.com/wallpaper/891/399/HD-wallpaper-dark-saturn-sky-moon-space.jpg")`,
-      }}
+    
       className={style.percard}
     >
       <h1>Matriculation(X)</h1>
