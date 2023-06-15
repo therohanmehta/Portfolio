@@ -1,14 +1,18 @@
 .wholepage {
   height: 100%;
   width: 90%;
-  text-align: center;
+  /* text-align: center; */
 }
 .wholepage h1 {
-  text-align: center;
-  padding-top: 20px;
+
+    
+    padding-top: 20px;
 }
 .heading {
   font-size: 50px;
+  text-align: center;
+  
+
 }
 .project {
   display: flex;
@@ -54,5 +58,6 @@ li {
   }
   .heading {
     font-size: 32px;
+    
   }
 }

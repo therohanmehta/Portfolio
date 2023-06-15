@@ -13,22 +13,22 @@ function NavBar() {
       {/* <span className={navbar.topIcon} >ROHAN</span> */}
       <div className={navbar.allIcons}>
         <h1 className={navbar.icon}>
-          <a href="#home">
+          <a href="#home🏠">
             <BiHomeAlt2 />
           </a>
         </h1>
         <h1 className={navbar.icon}>
-          <a href="#about">
+          <a href="#about😎">
             <BsPersonCircle />
           </a>
         </h1>
         <h1 className={navbar.icon}>
-          <a href="#connectme">
+          <a href="#connectme📱">
             <TbMail />
           </a>
         </h1>
         <h1 className={navbar.icon}>
-          <a href="#projects">
+          <a href="#projects💻">
             <AiOutlineFolderOpen />
           </a>
         </h1>

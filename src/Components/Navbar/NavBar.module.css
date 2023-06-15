@@ -14,17 +14,29 @@
   scroll-behavior: smooth;
 }
 .allIcons::after {
-  background-color: red;
+  /* background-color: red; */
 }
 
 .icon {
   /* border: 2px solid yellow; */
+  color: red;
   display: inline;
   margin: 15px 0px;
+}
+ 
+.allIcons a{
+  color: rgb(28, 88, 13);
 }
 
 .topIcon {
   position: fixed;
   top: 0px;
   font-size: 40px;
+}
+@media (max-width:500px) {
+  
+  .allIcons a{
+    color: rgb(73, 58, 63);
+  }
+  
 }

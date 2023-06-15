@@ -7,3 +7,6 @@ body{
     background-color: rgba(196, 196, 196, 0.542);
     scroll-behavior: smooth;
 }
+*{
+    scroll-behavior: smooth;
+}

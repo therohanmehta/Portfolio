@@ -8,12 +8,13 @@ function App() {
   return (
     <div className="mainscreen">
       <NavBar />
-      {/* <Home/> */}
-      <div id="about" />
+       <div id="home🏠" />
+      <Home/>
+      <div id="about😎" />
       <About />
-      <div id="connectme" />
+      <div id="connectme📱" />
       <ConnectMe />
-      <div id="projects" />
+      <div id="projects💻" />
       <Projects />
     </div>
   );

@@ -7,11 +7,11 @@ function Projects() {
   return (
     <>
       <div className={style.wholepage}>
-        <h1 className={style.heading}>Here are some projects that i created</h1>
+        <h1 className={style.heading}>Here are some projects that I created</h1>
 
         <div className={style.project}>
           <a
-            href="https://gym-website-liard-eight.vercel.app/"
+            href="https://monday-com.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -34,7 +34,7 @@ function Projects() {
               <button>
                 {" "}
                 <a
-                  href="https://gym-website-liard-eight.vercel.app/"
+                  href="https://monday-com.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
