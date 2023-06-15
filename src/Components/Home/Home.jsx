@@ -22,7 +22,7 @@ useEffect(()=>{
     }
     console.log(number)
     // setNumber(0)
-  }, 3000);
+  }, 5000);
 
 },[number])
 
@@ -30,7 +30,7 @@ useEffect(()=>{
     <>
       <div className={style.wrapper}>
   
-        <h2 >Hello I am Rohan</h2>
+        <h2 >Hello I am <span className={style.nameFade}>Rohan</span></h2>
         <h2 className={style.fadeIn}>A {data[number]}</h2>
         
         

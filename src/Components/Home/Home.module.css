@@ -17,7 +17,7 @@
 
 .fadeIn{
   /* font-size: 18vw; */
-  font-size: 5rem;
+  /* font-size: 5rem; */
 }
 
 
@@ -26,17 +26,72 @@
   0% {
     opacity: 0;
     color: wheat;
+    /* font-size: 12vw; */
+    font-size: 8rem;
   }
   100% {
     opacity: 1;
+    /* font-size: 10vw; */
+    font-size: 6rem;
   }
 }
 
 .fadeIn {
-  animation: fadeIn 3s infinite;
+  animation: fadeIn 5s infinite;
 }
 
 
+@keyframes nameFade {
+  0% {
+    background-color: red;
+    color:white;
+  }
+  10% {
+    background-color: pink;
+    color:white;
+  }
+  20% {
+    background-color: purple;
+    color:white;
+  }
+  30% {
+    background-color: blue;
+    color:white;
+  }
+  40% {
+    background-color: brown;
+    color:white;
+  }
+  50% {
+    background-color: blueviolet;
+    color:white;
+  }
+  60% {
+    background-color: rgb(0, 94, 94);
+    color:white;
+  }
+  70% {
+    background-color: yellowgreen;
+    color:white;
+  }
+  80% {
+    background-color: darkcyan;
+    color:white;
+  }
+  
+  70% {
+    background-color: rgb(0, 0, 0);
+    color:white ;
+  }
+  100% {
+    background-color: sandybrown;
+    color:white;
+  }
+}
+
+.nameFade {
+  animation: nameFade 20s infinite;
+}
 
 @media (max-width:500px) {
   .wrapper{
@@ -53,9 +108,29 @@
   }
   .fadeIn{
     /* font-size: 18vw; */
-    font-size: 3.5rem;
+    /* font-size: 3.5rem; */
   }
   
+
+
+
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    color: wheat;
+    font-size: 4rem;
+  }
+  100% {
+    opacity: 1;
+    font-size: 3rem;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 5s infinite;
+}
 
 
 }
