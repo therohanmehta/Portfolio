@@ -20,9 +20,8 @@
 background-color:#dfdfdf;
 
 }
-.percard > h1,
-h3,
-h4 {
+.percard > h1, .percard >h3, .percard>h4
+ {
   color: rgba(0, 0, 0, 0.953);
   font-family: cursive;
   font-size: xx-large;

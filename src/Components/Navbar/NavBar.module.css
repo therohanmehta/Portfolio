@@ -14,9 +14,7 @@
   z-index: 100;
  
 }
-.allIcons::after {
-  /* background-color: red; */
-}
+
 
 .icon {
   /* border: 2px solid yellow; */
@@ -25,21 +23,29 @@
   margin: 15px 0px;
 }
  
-.allIcons a:hover{
-  color: rgb(0, 0, 0);
+.allIcons a:active{
+  color: rgb(252, 0, 0);
  
 
 }
 
 .allIcons a{
-  color: rgb(73, 58, 63);
+  color: rgb(0, 0, 0);
 }
 @media (max-width:500px) {
   .allIcons{
     right: 4vw;
   }
+
   .allIcons a{
     color: rgb(73, 58, 63);
+  }
+  .allIcons a:hover{
+    /* color: rgb(0, 14, 204); */
+    color: red;
+   
+   
+  
   }
 
   

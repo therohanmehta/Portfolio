@@ -4,8 +4,8 @@ import { BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
-import { FcDocument } from "react-icons/fc";
 import { BsGithub } from "react-icons/bs";
+import { FcDocument } from "react-icons/fc";
 function ConnectMe() {
   return (
     <>
@@ -82,7 +82,7 @@ function ConnectMe() {
               <p>@therohanmehta</p>
             </div>
           </a>
-          <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/therohanmetha" target="_blank" rel="noopener noreferrer">
             <div className={style.facebook}>
               <h1>
                 <BsFacebook />

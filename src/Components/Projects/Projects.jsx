@@ -7,7 +7,7 @@ function Projects() {
   return (
     <>
       <div className={style.wholepage}>
-        <h1 className={style.heading}>Here are some projects that I created</h1>
+        <h1 className={style.heading}>Here are some Projects that I created</h1>
 
         <div className={style.project}>
           <a

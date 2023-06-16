@@ -1,11 +1,14 @@
 import React from "react";
 
 import navbar from "./NavBar.module.css";
-import { BiHomeAlt2 } from "react-icons/bi";
+import { HiOutlineHome } from "react-icons/hi";
 
-import { AiOutlineFolderOpen } from "react-icons/ai";
-import { BsPersonCircle } from "react-icons/bs";
-import { TbMail } from "react-icons/tb";
+import { FaLaptopCode } from "react-icons/fa";
+
+import { BsFillPersonFill } from "react-icons/bs";
+
+import { GiSmartphone } from "react-icons/gi";
+
 
 function NavBar() {
   return (
@@ -14,22 +17,22 @@ function NavBar() {
       <div className={navbar.allIcons}>
         <h1 className={navbar.icon}>
           <a href="#home🏠">
-            <BiHomeAlt2 />
+            <HiOutlineHome />
           </a>
         </h1>
         <h1 className={navbar.icon}>
           <a href="#about😎">
-            <BsPersonCircle />
+            <BsFillPersonFill />
           </a>
         </h1>
         <h1 className={navbar.icon}>
           <a href="#connectme📱">
-            <TbMail />
+            <GiSmartphone />
           </a>
         </h1>
         <h1 className={navbar.icon}>
           <a href="#projects💻">
-            <AiOutlineFolderOpen />
+            <FaLaptopCode />
           </a>
         </h1>
       </div>

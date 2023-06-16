@@ -5,6 +5,7 @@ function Home() {
   const data=['Programmer','Front End Web Developer','Civil Engineer','Cricketer','Guitarist','Pianist','Photgrapher']
 
 
+
 useEffect(()=>{
   setTimeout(() => {
     if(number<data.length){
