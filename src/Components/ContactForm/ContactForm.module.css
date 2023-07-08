@@ -1,0 +1,84 @@
+*{
+    /* border: 1px solid ; */
+}
+
+.wrapper {
+  /* border: 1px solid; */
+padding: 5rem 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading img {
+  height: 50px;
+  border-radius: 50%;
+}
+.card {
+  height:100%;
+  width: 30%;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 255, 0.294) 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+  
+}
+.heading {
+  display: flex;
+  width: 90%;
+  gap: 1rem;
+align-items: center;
+  /* justify-content: space-around; */
+}
+.message {
+  /* width: 50%; */
+  /* margin-left: 20%; */
+  /* border: 1px solid; */
+  padding: 1rem 3rem;
+}
+form {
+
+  /* margin: 0px 20px; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+form * {
+  display: block;
+  margin: 10px 0px;
+  max-width: 80%;
+  /* height: 30px; */
+  /* border: 2px solid red; */
+}
+form input{
+    height:20px ;
+    width: 80%;
+}
+form h2{
+    /* width: 20%; */
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+form textarea{
+    width: 80%;
+}
+
+@media ( max-width:820px ){
+ .card{
+  width: 50%;
+ }
+}
+@media ( max-width:420px ){
+  .wrapper{
+    justify-content: flex-start;
+  }
+  .card{
+  width: 75%;
+
+ }
+}

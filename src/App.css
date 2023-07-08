@@ -2,6 +2,7 @@ body{
  margin: 0px;  
  padding: 0px;
 
+
 }
 .mainscreen{
     background-color: rgba(196, 196, 196, 0.542);
@@ -10,4 +11,5 @@ body{
 }
 *{
     scroll-behavior: smooth;
+   
 }

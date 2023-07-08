@@ -15,7 +15,7 @@ function ConnectMe() {
         </h1>
 
         <a
-          href="https://drive.google.com/file/d/1fE3WwHJnKvTsqEkEPwKZBZn6Fsq1N5Un/view?usp=sharing"
+          href="https://drive.google.com/file/d/1yTjEE0zhCK2TsjxBgLEDDmKPHOZ6yzge/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -37,7 +37,7 @@ function ConnectMe() {
               <h1>
                 <BsGithub />
               </h1>
-              <p>Check my projects on Github</p>
+              <p>Check projects on Github</p>
               <p>@therohanmehta</p>
             </div>
           </a>

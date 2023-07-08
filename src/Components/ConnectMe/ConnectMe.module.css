@@ -23,9 +23,11 @@ a {
   justify-content: space-around;
   align-items: center;
   font-size: larger;
+  /* border: 1px solid; */
 }
 .content div {
   text-align: center;
+
   /* width: 50vw;
   height: 20vh; */
   /* background-color: red; */
@@ -51,6 +53,33 @@ a {
   font-size: 1.6rem;
 }
 
+
+
+@media screen and (max-width: 820px) {
+  .wholepage > h1 {
+    text-align: center;
+   
+    padding:0 10rem;
+    
+  }
+  .content {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    height: 40%;
+    justify-content: space-evenly;
+
+    align-items: center;
+    font-size: larger;
+   
+    flex-wrap: wrap;
+  }
+  .pdf span{
+    /* background-color: red; */
+    font-size: 25px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .wholepage {
     height: 90%;
@@ -64,6 +93,11 @@ a {
     text-align: center;
     /* font-size: xx-large; */
     font-size: 32px;
+    padding:0 ;
     /* margin-top: 20vh; */
+   
   }
+ 
 }
+
+    

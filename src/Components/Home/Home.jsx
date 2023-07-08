@@ -14,8 +14,8 @@ useEffect(()=>{
     if(number>=data.length-1){
       setNumber(0)
     }
-    console.log(number)
-    // setNumber(0)
+    // console.log(number)
+    
   }, 5000);
 
 })
