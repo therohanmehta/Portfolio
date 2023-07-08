@@ -20,8 +20,8 @@ function ContactForm() {
     };
 
     fetchIPAddress();
-    console.log(form);
-  }, [form.time]);
+    
+  }, []);
 
   useEffect(() => {
     const fetchMacID = async () => {
@@ -36,7 +36,7 @@ function ContactForm() {
     };
 
     fetchMacID();
-  }, [form.time]);
+  }, []);
 
   async function handleForm(e) {
     e.preventDefault()
@@ -48,12 +48,13 @@ function ContactForm() {
       },
     });
   
-  await setForm({ ...form, name: "", message: "" });
-  console.log(form)
+    console.log(form)
+   setForm({ ...form, name: "", message: "" });
   }
 
   return (
     <div className={style.wrapper}>
+
       <div className={style.card}>
         <div className={style.heading}>
           <img
