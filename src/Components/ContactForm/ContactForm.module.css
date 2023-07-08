@@ -39,7 +39,7 @@ align-items: center;
   /* border: 1px solid; */
   padding: 1rem 3rem;
 }
-form {
+.form {
 
   /* margin: 0px 20px; */
   width: 100%;
@@ -47,23 +47,57 @@ form {
   align-items: center;
   flex-direction: column;
 }
-form * {
+.form >* {
   display: block;
   margin: 10px 0px;
-  max-width: 80%;
+ max-width: 80%;
+ width: 80%;
   /* height: 30px; */
   /* border: 2px solid red; */
 }
-form input{
-    height:20px ;
-    width: 80%;
+.form input{
+    height:30px ;
 }
-form h2{
-    /* width: 20%; */
-    display: flex;
-    cursor: pointer;
-    align-items: center;
+
+
+.sendButton {
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
+
+.sendButton:after {
+  content: "";
+  background-color: #010e3b;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.sendButton:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .sendButton {
+    padding: 13px 50px 13px;
+  }
+}
+
 form textarea{
     width: 80%;
 }

@@ -1,50 +1,45 @@
-import React, { useState , useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { IoIosSend } from "react-icons/io";
 import { MdSend } from "react-icons/md";
 import style from "./ContactForm.module.css";
 function ContactForm() {
-    let x = new Date().toLocaleString("en-US");
-    console.log(x);
+  const [form, setForm] = useState({
+    time: new Date().toLocaleString("en-US"),
+  });
 
- 
-  const [form, setForm] = useState({time:x});
+  useEffect(() => {
+    const fetchIPAddress = async () => {
+      try {
+        const response = await fetch("http://api.ipify.org");
+        const ip = await response.text();
+        setForm({ ...form, ip: ip });
+        console.log("your IP address send to database " + ip);
+      } catch (error) {
+        console.error("Error retrieving IP address:", error);
+      }
+    };
 
-   
+    fetchIPAddress();
+    console.log(form);
+  }, [form.time]);
+
   useEffect(() => {
     const fetchMacID = async () => {
       try {
-        const response = await fetch('https://api64.ipify.org?format=json');
+        const response = await fetch("https://api64.ipify.org?format=json");
         const data = await response.text();
         setForm({ ...form, mac: data });
         console.log("your mac id send to database " + data);
       } catch (error) {
-        console.error('Error retrieving IP address:', error);
+        console.error("Error retrieving IP address:", error);
       }
     };
-  
+
     fetchMacID();
-    console.log(form)
-  }, []);
-  
-  
-    useEffect(() => {
-      const fetchIPAddress = async () => {
-        try {
-          const response = await fetch('http://api.ipify.org');
-          const ip = await response.text();
-          setForm({ ...form, ip: ip });
-          console.log("your IP address send to database " + ip);
-        } catch (error) {
-          console.error('Error retrieving IP address:', error);
-        }
-      };
-    
-      fetchIPAddress();
-      console.log(form)
-    }, []);
+  }, [form.time]);
 
-
-  async function handleForm() {
+  async function handleForm(e) {
+    e.preventDefault()
     await fetch("http://localhost:8080/data", {
       method: "POST",
       body: JSON.stringify(form),
@@ -52,8 +47,10 @@ function ContactForm() {
         "Content-Type": "application/json",
       },
     });
+  
+  await setForm({ ...form, name: "", message: "" });
+  console.log(form)
   }
-
 
   return (
     <div className={style.wrapper}>
@@ -66,14 +63,14 @@ function ContactForm() {
           <div>
             {" "}
             <p> Rohan Kumar</p>
-            <span>{x}</span>
+            <span>{form.time}</span>
           </div>
         </div>
         <div className={style.message}>
           If you reached to the website end ! Leave a message about your
           experience or feedback
         </div>
-        <form>
+        <div  className={style.form} id="formm">
           <input
             type="text"
             name="name"
@@ -81,6 +78,7 @@ function ContactForm() {
             onChange={(e) => {
               setForm({ ...form, [e.target.name]: e.target.value });
             }}
+            value={form.name}
           />
           <textarea
             name="message"
@@ -88,20 +86,22 @@ function ContactForm() {
             onChange={(e) => {
               setForm({ ...form, [e.target.name]: e.target.value });
             }}
-          />
-          {(form.message&&form.name)?<h2 onClick={handleForm}>
-          <MdSend />
-            Send
-          </h2>:
-          <h2
-            onClick={()=>{alert('unable to send blank message')}}
+            value={form.message}
+            />
+          {form.message && form.name ? (
+           <a href="#form">
+            <button className={style.sendButton} onClick={handleForm}> <MdSend />Send</button> 
+           </a>
           
-          >
-          <IoIosSend />
-            Write
-          </h2>
-}
-        </form>
+            
+          ) : (
+            <a href="#form">
+            <button className={style.sendButton}  onClick={() => {
+              alert("unable to send blank message");
+            }}> <IoIosSend />Write</button> 
+                   </a>
+          )}
+        </div>
       </div>
       {}
     </div>

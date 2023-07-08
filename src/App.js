@@ -7,7 +7,7 @@ import Home from "./Components/Home/Home";
 import Projects from "./Components/Projects/Projects";
 import Bottom from "./Components/Bottom/Bottom";
 import ContactForm from "./Components/ContactForm/ContactForm";
-import { useEffect } from "react";
+
 
 function App() {
 

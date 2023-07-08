@@ -18,8 +18,8 @@ const feedbackSchema = new mongoose.Schema({
   name: String,
   message: String,
   time: String,
-  mac:String,
-  ip:String,
+  mac: String,
+  ip: String,
 });
 
 const FeedbackData = mongoose.model("feedbackData", feedbackSchema);
@@ -39,8 +39,8 @@ server.post("/data", async (req, res) => {
   feedbackData.name = req.body.name;
   feedbackData.time = req.body.time;
   feedbackData.message = req.body.message;
-  feedbackData.mac=req.body.mac
-  feedbackData.ip=req.body.ip
+  feedbackData.mac = req.body.mac;
+  feedbackData.ip = req.body.ip;
 
   const sendData = await feedbackData.save();
   console.log(sendData);
@@ -48,5 +48,4 @@ server.post("/data", async (req, res) => {
 
 server.listen(8080, () => {
   console.log("server running");
-  
 });
