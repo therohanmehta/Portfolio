@@ -16,7 +16,7 @@ useEffect(()=>{
     }
     // console.log(number)
     
-  }, 5000);
+  }, 3000);
 
 })
 
