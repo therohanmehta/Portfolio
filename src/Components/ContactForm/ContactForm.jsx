@@ -40,7 +40,7 @@ function ContactForm() {
 
   async function handleForm(e) {
     e.preventDefault()
-    await fetch("http://localhost:8080/data", {
+    await fetch("https://portfolio-backend-6mgc.onrender.com/data", {
       method: "POST",
       body: JSON.stringify(form),
       headers: {
