@@ -33,7 +33,11 @@ server.use(express.json());
 server.use(cors());
 
 server.get("/data", async (req, res) => {});
-
+server.get("/jsondata", (req, res) => {
+  res.json({
+    name: "rohan",
+  });
+});
 server.post("/data", async (req, res) => {
   const feedbackData = new FeedbackData();
   feedbackData.name = req.body.name;
@@ -44,7 +48,6 @@ server.post("/data", async (req, res) => {
 
   const sendData = await feedbackData.save();
   console.log(sendData);
-  
 });
 
 server.listen(8080, () => {

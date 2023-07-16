@@ -39,7 +39,7 @@ function ContactForm() {
   }, []);
 
   async function handleForm(e) {
-    e.preventDefault()
+    // e.preventDefault()
     await fetch("https://portfolio-backend-6mgc.onrender.com/data", {
       method: "POST",
       body: JSON.stringify(form),
