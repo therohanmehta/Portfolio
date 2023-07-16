@@ -44,6 +44,7 @@ server.post("/data", async (req, res) => {
 
   const sendData = await feedbackData.save();
   console.log(sendData);
+  
 });
 
 server.listen(8080, () => {
